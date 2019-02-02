@@ -34,17 +34,17 @@ var colliderEnemigo;
 
 function preload() {
     // map made with Tiled in JSON format
-    this.load.tilemapTiledJSON('map', 'assets/map2.json');
+    this.load.tilemapTiledJSON('map', '/Phaser_1/assets/map2.json');
     // tiles in spritesheet 
-   // this.load.spritesheet('tiles', 'assets/tiles.png', {frameWidth: 70, frameHeight: 70});
-    this.load.spritesheet('tiles2', 'assets/tiles2.png', {frameWidth: 70, frameHeight: 70});
+   // this.load.spritesheet('tiles', '/Phaser_1/assets/tiles.png', {frameWidth: 70, frameHeight: 70});
+    this.load.spritesheet('tiles2', '/Phaser_1/assets/tiles2.png', {frameWidth: 70, frameHeight: 70});
     // simple coin image
     //this.load.image('coin', 'assets/coinGold.png');
 
     // player animations
-    this.load.atlas('player', 'assets/player.png', 'assets/player.json');
+    this.load.atlas('player', '/Phaser_1/assets/player.png', 'assets/player.json');
     // Sound
-    this.load.audio("music","assets/Camille_Saint-Saens-Aquarium.ogg")
+    this.load.audio("music","/Phaser_1/assets/Camille_Saint-Saens-Aquarium.ogg")
 }
 
 function create() {
